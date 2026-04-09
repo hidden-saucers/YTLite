@@ -100,7 +100,7 @@ jobs:
           path: ${{ github.workspace }}
 
       - name: Hide sensitive inputs
-        uses: levibostian/action-hide-sensitive-inputs@v1
+        uses: levibostian/action-hide-sensitive-inputs@v2
         with:
           exclude_inputs: bundle_id,display_name,enable_demc,enable_ryd,enable_ytabc,enable_youpip,enable_yq,enable_ytuhd,info_note,tweak_version
 
